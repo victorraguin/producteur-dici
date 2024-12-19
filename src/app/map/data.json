@@ -1,0 +1,257 @@
+{
+  "marketplaces": [
+    {
+      "nom": "Marché d'Arthon-en-Retz",
+      "commune": "Chaumes-en-Retz",
+      "lieu": "Place du Relais",
+      "periode": "Toute l'année",
+      "horaire": "Vendredi de 16h30 à 19h",
+      "latitude": 47.0865,
+      "longitude": -1.9143
+    },
+    {
+      "nom": "Marché de Chéméré",
+      "commune": "Chaumes-en-Retz",
+      "lieu": "Place de l'Église",
+      "periode": "Toute l'année",
+      "horaire": "Mardi de 8h30 à 13h",
+      "latitude": 47.1102,
+      "longitude": -1.8996
+    },
+    {
+      "nom": "Marché de Cheix-en-Retz",
+      "lieu": "Parking de l'Église",
+      "periode": "Toute l'année",
+      "horaire": "Jeudi de 16h à 19h30",
+      "latitude": 47.1864,
+      "longitude": -1.7975
+    },
+    {
+      "nom": "Marché de La Bernerie-en-Retz",
+      "lieu": "Sous les Halles, Chaussée du Pays de Retz",
+      "periode": "Toute l'année",
+      "horaire": "Vendredi de 8h à 13h",
+      "latitude": 47.086,
+      "longitude": -2.037
+    },
+    {
+      "nom": "Marché des Moutiers-en-Retz",
+      "lieu": "Place de l’Église Madame",
+      "periode": "Toute l'année",
+      "horaire": "Samedi de 8h à 13h",
+      "latitude": 47.0486,
+      "longitude": -2.0389
+    },
+    {
+      "nom": "Marché de Pornic",
+      "lieu": "Place des Halles",
+      "periode": "Toute l'année",
+      "horaire": "Jeudi et dimanche de 8h à 13h",
+      "latitude": 47.1175,
+      "longitude": -2.1022
+    },
+    {
+      "nom": "Marché de Sainte-Marie-sur-Mer",
+      "lieu": "Place de la Libération",
+      "periode": "Toute l'année",
+      "horaire": "Mercredi et samedi de 8h à 13h",
+      "latitude": 47.1086,
+      "longitude": -2.1458
+    },
+    {
+      "nom": "Marché de Sainte-Pazanne",
+      "lieu": "Place du 18 Juin",
+      "periode": "Toute l'année",
+      "horaire": "Vendredi de 8h30 à 12h30",
+      "latitude": 47.0867,
+      "longitude": -1.7978
+    }
+  ],
+  "producteurs": [
+    {
+      "nom": "Earl Dureau",
+      "produits": "Légumes, fruits et œufs bio",
+      "lieu": "203 rue des Fontenelles, La Prière, 44320 Chaumes-en-Retz",
+      "latitude": 47.0865,
+      "longitude": -1.9143,
+      "periode": "Toute l'année",
+      "horaire": "Lundi et jeudi de 16h30 à 18h30",
+      "contact": {
+        "telephone": [
+          "02 40 21 82 63",
+          "06 10 92 03 13"
+        ],
+        "email": "gaecduraleau@laposte.net",
+        "site": "https://panier-legumes.bio"
+      },
+      "type_vente": [
+        "À la ferme",
+        "AMAP",
+        "Commande par mail"
+      ]
+    },
+    {
+      "nom": "Ferme des Vieux Copains",
+      "produits": "Fruits, légumes, œufs, miel, plants, aromates, fleurs",
+      "lieu": "La Vinçonnière, Chéméré, 44320 Chaumes-en-Retz",
+      "latitude": 47.1102,
+      "longitude": -1.8996,
+      "periode": "Toute l'année",
+      "horaire": [
+        "Mercredi de 16h à 19h",
+        "Samedi de 10h à 12h30"
+      ],
+      "contact": {
+        "telephone": [
+          "06 33 09 98 78",
+          "07 81 76 45 69"
+        ],
+        "email": "ferme-des-vieux-copains@retzien.fr",
+        "site": "https://ferme-vieux-copains.fr",
+        "facebook": "@lafermedesvieuxcopains"
+      },
+      "type_vente": [
+        "À la ferme",
+        "Marchés locaux",
+        "Livraison"
+      ]
+    },
+    {
+      "nom": "La Ferme du Bois Hamon",
+      "produits": "Fruits du verger, jus pétillant et purées de fruits",
+      "lieu": "71 Le Bois Hamon, Chaumes-en-Retz",
+      "latitude": 47.085,
+      "longitude": -1.915,
+      "periode": "De mi-août à fin octobre",
+      "horaire": [
+        "Mercredi et samedi de 10h à 12h30 et de 14h30 à 18h",
+        "Dimanche de 10h à 12h30"
+      ],
+      "contact": {
+        "telephone": "06 45 91 41 67",
+        "email": "lafermeduboishamon@gmail.com",
+        "site": "https://lafermeduboishamon.fr",
+        "facebook": "@LaFermeDuBoisHamon"
+      },
+      "type_vente": [
+        "À la ferme",
+        "Marché de Ste-Pazanne le vendredi de 8h30 à 12h30"
+      ]
+    },
+    {
+      "nom": "La Cabane à Spiruline",
+      "produits": "Spiruline",
+      "lieu": "733 rue des Buis, Chaumes-en-Retz",
+      "latitude": 47.09,
+      "longitude": -1.91,
+      "periode": "Toute l'année",
+      "horaire": "Tous les jours de 10h à 17h",
+      "contact": {
+        "telephone": "02 40 64 15 41",
+        "email": "lacabaneaspiruline@gmail.com",
+        "site": "https://www.lacabaneaspiruline.fr",
+        "facebook": "La cabane à spiruline"
+      },
+      "type_vente": [
+        "Sur place",
+        "En ligne",
+        "Commande"
+      ]
+    },
+    {
+      "nom": "Barreau Christophe",
+      "produits": "Bœuf et veau",
+      "lieu": "7 impasse des Tilleuls - Le Poirier, Chaumes-en-Retz",
+      "latitude": 47.087,
+      "longitude": -1.92,
+      "periode": "Sur rendez-vous uniquement",
+      "horaire": "Sur RDV uniquement",
+      "contact": {
+        "telephone": "02 40 64 32 97",
+        "email": "barreau-isa@wanadoo.fr"
+      },
+      "type_vente": [
+        "Sur rendez-vous"
+      ]
+    },
+    {
+      "nom": "GAEC La Boule des Houx",
+      "produits": "Bœuf et veau (race normande, certifiée sans OGM)",
+      "lieu": "Les Grands Houx, Chéméré, Chaumes-en-Retz",
+      "latitude": 47.11,
+      "longitude": -1.899,
+      "periode": "Sur commande par téléphone",
+      "horaire": "À convenir par téléphone",
+      "contact": {
+        "telephone": "06 81 38 50 72",
+        "email": "gaec.labouledeshoux@orange.fr"
+      },
+      "type_vente": [
+        "Sur commande par téléphone"
+      ]
+    },
+    {
+      "nom": "Ferme des Champs Libres",
+      "produits": "Pains, brioches, farine, fruits, légumes, œufs",
+      "lieu": "23 rue de la Fontaine Bonnet - La Poitevinière, Chaumes-en-Retz",
+      "latitude": 47.115,
+      "longitude": -1.912,
+      "periode": "Toute l'année",
+      "horaire": [
+        "Sur place : Mardi et mercredi de 16h30 à 19h30",
+        "Retrait en drive : Mercredi et vendredi de 9h à 20h"
+      ],
+      "contact": {
+        "email": "contact@lafermedeschampslibres.com",
+        "site": "https://app.cagette.net/ferme-des-champs-libres"
+      },
+      "type_vente": [
+        "À la ferme",
+        "Marché local",
+        "Commande en ligne"
+      ]
+    },
+    {
+      "nom": "Jardin du Pré Pichaud",
+      "produits": "Légumes, herbes aromatiques, melons, fraises",
+      "lieu": "Rue du Pré Pichaud, 44320 Chaumes-en-Retz",
+      "latitude": 47.087,
+      "longitude": -1.798,
+      "periode": "Toute l'année",
+      "horaire": [
+        "Samedi de 10h à 13h",
+        "Dimanche de 9h à 13h"
+      ],
+      "contact": {
+        "telephone": "06 71 30 91 08",
+        "email": "primej44@gmail.com",
+        "facebook": "@jardin.du.pre.pichaud"
+      },
+      "type_vente": [
+        "À la ferme",
+        "Marché local"
+      ]
+    },
+    {
+      "nom": "Jardinerie Solidaire Horticat",
+      "produits": "Arbres fruitiers, plantes, semences, terreaux, pots",
+      "lieu": "Rue du Pas de la Haie, 44320 Chaumes-en-Retz",
+      "latitude": 47.0495,
+      "longitude": -1.9457,
+      "periode": "Toute l'année",
+      "horaire": [
+        "Mardi au samedi de 9h30 à 12h30 et de 14h à 18h",
+        "Marché de Noël en décembre"
+      ],
+      "contact": {
+        "email": "barre@esatco44.fr",
+        "site": "https://pointvertchateau.business.site",
+        "facebook": "@JardinerieHorticat"
+      },
+      "type_vente": [
+        "À la ferme",
+        "Marché spécial"
+      ]
+    }
+  ]
+}

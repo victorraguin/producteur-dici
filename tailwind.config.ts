@@ -11,7 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        secondary: "#F7C35F"
       },
+    },
+    fontFamily: {
+      title: ['Livvic', 'sans-serif'],
+      body: ['"Century Gothic"', 'sans-serif'],
     },
   },
   plugins: [],
