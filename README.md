@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Producteur d'ici
 
-## Getting Started
+Bienvenue sur **Producteur d'ici**, une application web interactive permettant de découvrir les producteurs locaux et marchés près de chez vous grâce à une carte interactive et des fonctionnalités avancées de recherche.
 
-First, run the development server:
+## 🚀 Technologies utilisées
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Front-end :** React.js, Next.js 15.1.0 (App Router)
+- **Style :** Tailwind CSS 3.4.1
+- **Carte interactive :** Mapbox GL 3.8.0
+- **Gestion de l'état :** TanStack React Query 5.62.7
+- **Base de données et authentification :** Supabase
+- **Icônes :** React Icons
+
+---
+
+## 📦 Installation
+
+1. **Cloner le dépôt :**
+
+   ```bash
+   git clone https://github.com/votre-utilisateur/producteur-dici.git
+   cd producteur-dici
+   ```
+
+2. **Installer les dépendances :**
+
+   ```bash
+   pnpm install
+   ```
+
+3. **Lancer le projet en développement :**
+
+   ```bash
+   pnpm dev
+   ```
+
+4. **Construire pour la production :**
+
+   ```bash
+   pnpm build
+   ```
+
+5. **Démarrer l'application en production :**
+   ```bash
+   pnpm start
+   ```
+
+---
+
+## 🧩 Structure du projet
+
+```
+producteur-dici/
+├── src/
+│   ├── app/                          # Structure basée sur l'App Router de Next.js
+│   │   ├── actualites/               # Gestion des actualités
+│   │   ├── components/               # Composants réutilisables
+│   │   ├── connexion/                # Gestion de la connexion
+│   │   ├── evenements/               # Gestion des événements
+│   │   ├── map/                      # Carte interactive
+│   │   ├── producteurs-marches/      # Producteurs et marchés
+│   │   ├── types/                    # Types TypeScript
+├── public/                           # Ressources statiques
+├── package.json                      # Dépendances du projet
+├── README.md                         # Documentation du projet
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Scripts disponibles
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **`pnpm dev` :** Lancer le projet en développement
+- **`pnpm build` :** Construire le projet pour la production
+- **`pnpm start` :** Démarrer le projet en production
+- **`pnpm lint` :** Lancer l'analyse statique ESLint
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🖋️ Contribution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Les contributions sont les bienvenues ! Suivez ces étapes pour proposer des modifications :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Forkez le projet**
+2. **Créez une nouvelle branche :** `git checkout -b feature/ma-nouvelle-fonctionnalite`
+3. **Apportez vos changements et commitez-les :** `git commit -m 'Ajout de ma nouvelle fonctionnalité'`
+4. **Poussez votre branche sur GitHub :** `git push origin feature/ma-nouvelle-fonctionnalite`
+5. **Ouvrez une Pull Request**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛡️ Licence
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ce projet est sous licence **MIT**. Consultez le fichier `LICENSE` pour plus d'informations.
+
+---
+
+## 📞 Support
+
+Pour toute question ou suggestion, ouvrez une issue sur le dépôt GitHub.
+
+**Merci d'utiliser Producteur d'ici !** 🎉
